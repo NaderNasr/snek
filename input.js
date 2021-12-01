@@ -29,6 +29,9 @@ const handleUserInput = (data) => {
     if (key === "d") {
       connection.write("Move: right");
     }
+    if (key === "m") {
+      connection.write("Say: This is a Special message alert");
+    }
   });
   
 };

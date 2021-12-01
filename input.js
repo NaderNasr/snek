@@ -29,8 +29,11 @@ const handleUserInput = (data) => {
     if (key === "d") {
       connection.write("Move: right");
     }
+    if (key === "n") {
+      connection.write("Say: HEYYY!");
+    }
     if (key === "m") {
-      connection.write("Say: This is a Special message alert");
+      connection.write("Say: I am a hacker ;)");
     }
   });
   
